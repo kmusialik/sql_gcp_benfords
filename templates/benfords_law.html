@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Musialik Alt Data</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='style.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+  <div class="wrapper_1">
+
+        <section class="input-part">
+          <p class="info-txt"></p>
+          <div class="content">
+            <form action="/benfords_law" method="post">
+            <input type="text" spellcheck="false" placeholder="Enter Bloomberg ticker eg AAPL" type="text" required name="celsius">
+
+
+
+            <button>check conformity to Benford's Law</button>
+          </div>
+        </section>
+
+</body>
+</html>
